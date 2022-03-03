@@ -34,13 +34,13 @@ const convertToKm =(b)=>{
      cityTempMax.textContent=convertToCelsius(info.main.temp_max);
      citypressure.textContent=(info.main.pressure)+" hPa";
 // cityData.textContent =new Date ().toLocaleDateString();
-     weatherIcon.src = `http://openweathermap.org/img/wn/${info.weather[0].icon}.png`;
+     weatherIcon.src = `https://openweathermap.org/img/wn/${info.weather[0].icon}.png`;
 errorMessage.textContent ="";
  };
 
  const getWeatherBySearch =(city) => {
   
-     const URL =`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&lang=pl`;
+     const URL =`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&lang=pl`;
      fetch(URL)
      .then((res)=> res.json())
      .then((res)=> weatherInfo(res))
@@ -53,7 +53,7 @@ errorMessage.textContent ="";
 
 const getWeatherByLocation = (coords) =>{
     console.log(coords);
-    const URL = `http://api.openweathermap.org/data/2.5/weather?lat=${coords.latitude}&lon=${coords.longitude}&appid=${API_KEY}&lang=pl`;
+    const URL = `https://api.openweathermap.org/data/2.5/weather?lat=${coords.latitude}&lon=${coords.longitude}&appid=${API_KEY}&lang=pl`;
    fetch(URL)
    .then((res)=>res.json())
    .then((res)=>weatherInfo(res))
