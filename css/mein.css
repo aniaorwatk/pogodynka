@@ -1,0 +1,100 @@
+@charset "UTF-8";
+.wrapper {
+  min-height: 500px;
+  border-radius: 15px;
+  padding: 30px 30px 30px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  backdrop-filter: blur(2px) saturate(100%);
+  -webkit-backdrop-filter: blur(30px) saturate(100%);
+  background-color: rgba(229, 233, 240, 0.603);
+}
+
+.wrapper .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.wrapper h1 {
+  color: #4e4848;
+  font-size: 45px;
+}
+
+.wrapper h3,
+.wrapper h2,
+.wrapper p {
+  color: #6b5f1b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../zdjęcie chmur.jpg");
+  background-size: cover;
+}
+
+.search {
+  gap: 5px;
+  margin-left: 25px;
+  margin-right: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.search .but {
+  background-color: #cacabd;
+  border: none;
+  cursor: pointer;
+}
+
+.search .searchcity {
+  background-color: rgba(173, 209, 206, 0.39);
+  border-color: bisque;
+  cursor: pointer;
+}
+
+.search .searchcity,
+.search .but {
+  font-size: 20px;
+  border-radius: 25px;
+  padding: 5px 5px 5px 5px;
+}
+/*# sourceMappingURL=mein.css.map */

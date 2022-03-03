@@ -1,0 +1,23 @@
+.search {
+  gap: 5px;
+  margin-left: 25px;
+  margin-right: 25px;
+  display: flex;
+  flex-direction: column;
+  .but {
+    background-color: rgb(202, 202, 189);
+    border: none;
+    cursor: pointer;
+  }
+  .searchcity {
+    background-color: rgba(173, 209, 206, 0.39);
+    border-color: bisque;
+    cursor: pointer;
+  }
+  .searchcity,
+  .but {
+    font-size: 20px;
+    border-radius: 25px;
+    padding: 5px 5px 5px 5px;
+  }
+}
