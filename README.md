@@ -1,6 +1,6 @@
 # pogodynka
-Prosta aplikacja pogodowa
-aniaorwatk.github.io/pogodynka/
+
+https://aniaorwatk.github.io/pogodynka/
 
 Technologies: HTML5 • SCSS • JavaScript
 
